@@ -4,22 +4,22 @@
 
 ## Quick Deploy
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fp-stream%2Fp-stream)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjenish094%2Fp-stream)
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/p-stream/p-stream)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/jenish094/p-stream)
 
-**NOTE: To self-host, more setup is required. Check the [docs](https://p-stream.github.io/docs/) to properly set up!!!!**
+**NOTE: To self-host, more setup is required. Check the [docs](https://jenish094.github.io/pstream-docs/) to properly set up!!!!**
 
 ## Links And Resources
 
 | Service       | Link                                            | Source Code                                             |
 | ------------- | ----------------------------------------------- | ------------------------------------------------------- |
-| P-Stream Docs | [docs](https://p-stream.github.io/docs/)                | [source code](https://github.com/p-stream/docs)         |
-| Extension     | [extension](https://p-stream.github.io/docs/extension) | [source code](https://github.com/p-stream/browser-ext)  |
-| Proxy         | [simple-proxy](https://p-stream.github.io/docs/proxy)  | [source code](https://github.com/p-stream/simple-proxy) |
-| Backend       | [backend](https://github.com/p-stream/backend)          | [source code](https://github.com/p-stream/backend)      |
-| Frontend      | [P-Stream](https://p-stream.github.io/docs/instances)  | [source code](https://github.com/p-stream/p-stream)     |
-| Weblate       | [weblate](https://p-stream.github.io/docs/weblate)          |                                                         |
+| P-Stream Docs | [docs](https://jenish094.github.io/pstream-docs/)                | [source code](https://github.com/jenish094/pstream-docs)         |
+| Extension     | [extension](https://jenish094.github.io/pstream-docs/extension) | [source code](https://github.com/jenish094/browser-ext)  |
+| Proxy         | [simple-proxy](https://jenish094.github.io/pstream-docs/simple-proxy)  | [source code](https://github.com/jenish094/simple-proxy) |
+| Backend       | [backend](https://github.com/jenish094/backend)          | [source code](https://github.com/jenish094/backend)      |
+| Frontend      | [P-Stream](https://jenish094.github.io/pstream-docs/instances)  | [source code](https://github.com/jenish094/p-stream)     |
+| Weblate       | [weblate](https://jenish094.github.io/pstream-docs/weblate)          |                                                         |
 
 ## Referrers
 
@@ -30,8 +30,8 @@
 Type the following commands into your terminal / command line to run P-Stream locally
 
 ```bash
-git clone https://github.com/p-stream/p-stream.git
-cd smov
+git clone https://github.com/jenish094/p-stream.git
+cd p-stream
 git pull
 pnpm install
 pnpm run dev
@@ -44,7 +44,7 @@ Then you can visit the local instance [here](http://localhost:5173) or, at local
 To update a P-Stream instance you can type the below commands into a terminal at the root of your project.
 
 ```bash
-git remote add upstream https://github.com/p-stream/p-stream.git
+git remote add upstream https://github.com/jenish094/p-stream.git
 git fetch upstream # Grab the contents of the new remote source
 git checkout <YOUR_MAIN_BRANCH>  # Most likely this would be `origin/production`
 git merge upstream/production
