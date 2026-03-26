@@ -3,10 +3,10 @@ name: Deploy website to nginx
 on:
   push:
     branches:
-      - main
+      - production
   pull_request:
     branches:
-      - main
+      - production
 
 jobs:
   deploy:
