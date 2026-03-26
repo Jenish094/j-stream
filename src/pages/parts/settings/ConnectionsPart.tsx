@@ -37,7 +37,7 @@ import { useAuthStore } from "@/stores/auth";
 import { usePreferencesStore } from "@/stores/preferences";
 import { useTraktStore } from "@/stores/trakt/store";
 
-import { RegionSelectorPart } from "./RegionSelectorPart";
+import { RegionSelectorPart as _RegionSelectorPart } from "./RegionSelectorPart";
 
 interface ProxyEditProps {
   proxyUrls: string[] | null;
