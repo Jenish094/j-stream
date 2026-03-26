@@ -51,8 +51,8 @@ export function RevivalAnnouncementModal() {
                 </div>
                 <div className="space-y-4 text-base text-type-secondary">
                   <p className="text-white font-bold border-l-2 border-white pl-3">
-                    This is a fork of the original P-Stream. XP Technologies
-                    holds no ownership over the original project and makes no
+                    This is a fork of the original P-Stream. I
+                    hold no ownership over the original project and makes no
                     claim to it.
                   </p>
                   <p>
@@ -61,7 +61,7 @@ export function RevivalAnnouncementModal() {
                     their decision and wish to keep their identity private.
                   </p>
                   <p>
-                    The XP Technologies team has taken on the responsibility of
+                    I have taken on the responsibility of
                     continuing their legacy. We are committed to keeping
                     P-Stream <strong className="text-white">open source</strong>{" "}
                     and{" "}
@@ -69,7 +69,7 @@ export function RevivalAnnouncementModal() {
                   </p>
                   <p>
                     <a
-                      href="https://github.com/xp-technologies-dev/p-stream"
+                      href="https://github.com/jenish094/p-stream"
                       target="_blank"
                       rel="noreferrer"
                       className="text-blue-400 hover:text-blue-300 underline transition-colors"

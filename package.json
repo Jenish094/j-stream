@@ -3,7 +3,7 @@
   "name": "P-Stream",
   "version": "5.3.7",
   "private": true,
-  "homepage": "https://github.com/xp-technologies-dev/p-stream",
+  "homepage": "https://github.com/jenish094/p-stream",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -38,7 +38,7 @@
     "@ladjs/country-language": "^1.0.3",
     "@marsidev/react-turnstile": "^0.7.2",
     "@noble/hashes": "^1.8.0",
-    "@p-stream/providers": "github:xp-technologies-dev/providers#production",
+    "@p-stream/providers": "github:jenish094/providers#production",
     "@plasmohq/messaging": "^0.6.2",
     "@react-spring/web": "^9.7.5",
     "@scure/bip39": "^1.6.0",
