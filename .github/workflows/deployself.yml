@@ -48,8 +48,9 @@ jobs:
         run: |
           echo "${{ secrets.APP_CONFIG }}" > config.js 
 
-      - name: Build Project
-        run: pnpm build
+      - name: fix
+        run: pnpm exec eslint --fix .
+
       - name: Build Project
         run: pnpm build
 
