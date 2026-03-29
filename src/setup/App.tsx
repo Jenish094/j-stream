@@ -18,8 +18,10 @@ import { KeyboardCommandsModal } from "@/components/overlays/KeyboardCommandsMod
 import { NotificationModal } from "@/components/overlays/notificationsModal";
 import { SupportInfoModal } from "@/components/overlays/SupportInfoModal";
 import { TraktAuthHandler } from "@/components/TraktAuthHandler";
+import { useGamepadPolling } from "@/hooks/useGamepad";
 import { useGlobalKeyboardEvents } from "@/hooks/useGlobalKeyboardEvents";
 import { useOnlineListener } from "@/hooks/usePing";
+import { useSpatialNavigation } from "@/hooks/useSpatialNavigation";
 import { AboutPage } from "@/pages/About";
 import { AdminPage } from "@/pages/admin/AdminPage";
 import { AllBookmarks } from "@/pages/bookmarks/AllBookmarks";
@@ -108,12 +110,22 @@ function QueryView() {
 export const maintenanceTime = "March 31th 11:00 PM - 5:00 AM EST";
 
 function App() {
+  const location = useLocation();
   useHistoryListener();
   useOnlineListener();
-  useGlobalKeyboardEvents();
   useClearModalsOnNavigation();
   const maintenance = false; // Shows maintance page
   const [showDowntime, setShowDowntime] = useState(maintenance);
+
+  const {
+    handleAction,
+    currentRect,
+    resetNavigation,
+    updateFocusableElements,
+  } = useSpatialNavigation();
+
+  useGlobalKeyboardEvents(handleAction);
+  useGamepadPolling({ onAction: handleAction, enabled: true });
 
   const handleButtonClick = () => {
     setShowDowntime(false);
@@ -126,6 +138,13 @@ function App() {
       sessionStorage.setItem("downtimeToken", "true");
     }
   }, [setShowDowntime, maintenance]);
+
+  useEffect(() => {
+    resetNavigation();
+    requestAnimationFrame(() => {
+      updateFocusableElements();
+    });
+  }, [location.pathname, resetNavigation, updateFocusableElements]);
 
   return (
     <Layout>
@@ -230,6 +249,17 @@ function App() {
           ) : null}
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
+      )}
+      {currentRect && (
+        <div
+          className="fixed pointer-events-none z-50 border-2 border-blue-500 bg-blue-500/20 rounded transition-all duration-200 ease-out"
+          style={{
+            left: currentRect.left - 4,
+            top: currentRect.top - 4,
+            width: currentRect.width + 8,
+            height: currentRect.height + 8,
+          }}
+        />
       )}
       {showDowntime && (
         <MaintenancePage onHomeButtonClick={handleButtonClick} />

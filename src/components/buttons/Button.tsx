@@ -99,6 +99,7 @@ export function Button(props: Props) {
         rel="noreferrer"
         download={props.download}
         onClick={cb}
+        data-focusable="true"
       >
         {content}
       </a>
@@ -106,13 +107,18 @@ export function Button(props: Props) {
 
   if (props.href)
     return (
-      <a className={classes} onClick={cb}>
+      <a className={classes} onClick={cb} data-focusable="true">
         {content}
       </a>
     );
 
   return (
-    <button type="button" onClick={cb} className={classes}>
+    <button
+      type="button"
+      onClick={cb}
+      className={classes}
+      data-focusable="true"
+    >
       {content}
     </button>
   );
@@ -143,7 +149,12 @@ export function ButtonPlain(props: ButtonPlainProps) {
   );
 
   return (
-    <button type="button" onClick={props.onClick} className={classes}>
+    <button
+      type="button"
+      onClick={props.onClick}
+      className={classes}
+      data-focusable="true"
+    >
       {props.children}
     </button>
   );
