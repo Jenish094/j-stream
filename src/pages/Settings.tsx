@@ -540,6 +540,12 @@ export function SettingsPage() {
   const setEnablePauseOverlay = usePreferencesStore(
     (s) => s.setEnablePauseOverlay,
   );
+  const enableSpatialNavigation = usePreferencesStore(
+    (s) => s.enableSpatialNavigation,
+  );
+  const setEnableSpatialNavigation = usePreferencesStore(
+    (s) => s.setEnableSpatialNavigation,
+  );
   const setEnableNumberKeySeeking = usePreferencesStore(
     (s) => s.setEnableNumberKeySeeking,
   );
@@ -1113,6 +1119,8 @@ export function SettingsPage() {
               setEnableAutoResumeOnPlaybackError={
                 state.enableAutoResumeOnPlaybackError.set
               }
+              enableSpatialNavigation={enableSpatialNavigation}
+              setEnableSpatialNavigation={setEnableSpatialNavigation}
             />
           </div>
         )}
