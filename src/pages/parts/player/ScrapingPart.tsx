@@ -1,4 +1,4 @@
-import { ProviderControls, ScrapeMedia } from "@p-stream/providers";
+import { ProviderControls, ScrapeMedia } from "@jenish094/providers";
 import classNames from "classnames";
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";

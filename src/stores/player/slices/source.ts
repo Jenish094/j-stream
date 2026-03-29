@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { ScrapeMedia } from "@p-stream/providers";
+import { ScrapeMedia } from "@jenish094/providers";
 
 import { downloadCaption } from "@/backend/helpers/subs";
 import { MakeSlice } from "@/stores/player/slices/types";

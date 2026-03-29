@@ -1,4 +1,4 @@
-import { Stream } from "@p-stream/providers";
+import { Stream } from "@jenish094/providers";
 
 import { RULE_IDS, setDomainRule } from "@/backend/extension/messaging";
 

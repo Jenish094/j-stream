@@ -1,4 +1,4 @@
-import { ScrapeMedia } from "@p-stream/providers";
+import { ScrapeMedia } from "@jenish094/providers";
 import { nanoid } from "nanoid";
 import { ofetch } from "ofetch";
 import { useCallback } from "react";

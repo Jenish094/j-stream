@@ -1,4 +1,4 @@
-import { ScrapeMedia } from "@p-stream/providers";
+import { ScrapeMedia } from "@jenish094/providers";
 import React, { ReactNode, useEffect, useMemo, useRef } from "react";
 import { useTranslation } from "react-i18next";
 
