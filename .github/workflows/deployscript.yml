@@ -1,0 +1,21 @@
+name: Deploy from a script
+description: "Yeah it sucks but its a last resort because I can't be bothered to fix the bum deploy action because it build fine locally but doesnt when its no github actions on a self-hosted machine"
+
+on:
+  push:
+    branches:
+      - production
+  pull_request:
+    branches:
+      - production
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    environment: production 
+    
+    steps:
+        - name: Run Deploy Script
+          run: |
+                /home/jenish/actionscript/deploy.sh
+                echo "Deployment script executed successfully"
