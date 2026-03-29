@@ -33,6 +33,9 @@ importers:
       '@headlessui/react':
         specifier: ^1.7.19
         version: 1.7.19(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@jenish094/providers':
+        specifier: github:jenish094/providers#production
+        version: '@p-stream/providers@https://codeload.github.com/jenish094/providers/tar.gz/b902c5ac8f00eb249e6c3aa51c76b8e99392f7fc'
       '@ladjs/country-language':
         specifier: ^1.0.3
         version: 1.0.3
@@ -42,9 +45,6 @@ importers:
       '@noble/hashes':
         specifier: ^1.8.0
         version: 1.8.0
-      '@p-stream/providers':
-        specifier: github:jenish094/providers#production
-        version: https://codeload.github.com/jenish094/providers/tar.gz/0cec62538f1aee5bb785b89f26ca76bac87ce796
       '@plasmohq/messaging':
         specifier: ^0.6.2
         version: 0.6.2(react@18.3.1)
@@ -1481,8 +1481,8 @@ packages:
     resolution: {integrity: sha512-nn5ozdjYQpUCZlWGuxcJY/KpxkWQs4DcbMCmKojjyrYDEAGy4Ce19NN4v5MduafTwJlbKc99UA8YhSVqq9yPZA==}
     engines: {node: '>=12.4.0'}
 
-  '@p-stream/providers@https://codeload.github.com/jenish094/providers/tar.gz/0cec62538f1aee5bb785b89f26ca76bac87ce796':
-    resolution: {tarball: https://codeload.github.com/jenish094/providers/tar.gz/0cec62538f1aee5bb785b89f26ca76bac87ce796}
+  '@p-stream/providers@https://codeload.github.com/jenish094/providers/tar.gz/b902c5ac8f00eb249e6c3aa51c76b8e99392f7fc':
+    resolution: {tarball: https://codeload.github.com/jenish094/providers/tar.gz/b902c5ac8f00eb249e6c3aa51c76b8e99392f7fc}
     version: 3.2.0
 
   '@pkgjs/parseargs@0.11.0':
@@ -6488,7 +6488,7 @@ snapshots:
 
   '@nolyfill/is-core-module@1.0.39': {}
 
-  '@p-stream/providers@https://codeload.github.com/jenish094/providers/tar.gz/0cec62538f1aee5bb785b89f26ca76bac87ce796':
+  '@p-stream/providers@https://codeload.github.com/jenish094/providers/tar.gz/b902c5ac8f00eb249e6c3aa51c76b8e99392f7fc':
     dependencies:
       abort-controller: 3.0.0
       cheerio: 1.0.0-rc.12
