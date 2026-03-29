@@ -54,7 +54,8 @@ jobs:
       - name: Build Project
         run: pnpm build
 
-      - name: Deploy to Nginx
+      - name: Deploy to Apache2
         run: |
-          sudo cp -r dist/* /var/www/p-stream/html/
-          sudo systemctl restart nginx
+          sudo cp -r dist/* /var/www/html/
+          sudo cp /home/jenish/config.js /var/www/html
+          sudo systemctl restart apache2
