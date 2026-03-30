@@ -1,4 +1,4 @@
-name: Deploy Website
+name: build and deploy (ssh)
 description: "hope this works now, im building on github actions on the remote machines then deploying on my home server"
 # I should put my ssh private key here in plaintext instead? Seems like the smart thing to do
 
@@ -19,12 +19,12 @@ jobs:
       - name: Install Pnpm
         uses: pnpm/action-setup@v3
         with:
-          version: 8
+          version: 10.33.0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 18.19.1
           cache: 'pnpm'
 
       - name: Install Dependencies
