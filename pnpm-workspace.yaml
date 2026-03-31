@@ -1,2 +1,2 @@
-onlyBuiltDependecies:
-  - '@jenish094/providers@3.2.0'
+onlyBuiltDependencies:
+  - "@jenish094/providers"
