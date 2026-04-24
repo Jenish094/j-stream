@@ -52,7 +52,7 @@ export function RevivalAnnouncementModal() {
                 <div className="space-y-4 text-base text-type-secondary">
                   <p className="text-white font-bold border-l-2 border-white pl-3">
                     This is a fork of the original P-Stream. I (Jenish094) hold
-                    no ownership over the original project and make no claim to 
+                    no ownership over the original project and make no claim to
                     it.
                   </p>
                   <p>
