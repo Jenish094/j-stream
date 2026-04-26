@@ -10,31 +10,42 @@ export async function scrapeExternalSubtitles(
   meta: PlayerMeta,
 ): Promise<import("@/stores/player/slices/source").CaptionListItem[]> {
   try {
-    // Extract IMDb ID from meta
     const imdbId = meta.imdbId;
-    if (!imdbId) {
-      console.log("No IMDb ID available for external subtitle scraping");
+    const tmdbId = meta.tmdbId;
+
+    if (!imdbId && !tmdbId) {
+      console.log(
+        "No IMDb or TMDB ID available for external subtitle scraping",
+      );
       return [];
     }
 
     const season = meta.season?.number;
     const episode = meta.episode?.number;
-    const tmdbId = meta.tmdbId;
 
-    // Set a reasonable timeout for each source (10 seconds)
+    // Wyzie aggregates multiple upstream sources so needs a longer timeout
+    const wyzieTimeout = 30000;
     const timeout = 10000;
 
     // Create promises for each source with individual timeouts
-    const wyziePromise = scrapeWyzieCaptions(tmdbId, imdbId, season, episode);
-    const openSubsPromise = scrapeOpenSubtitlesCaptions(
-      imdbId,
+    const wyziePromise = scrapeWyzieCaptions(
+      tmdbId,
+      imdbId ?? "",
       season,
       episode,
     );
+    const openSubsPromise = imdbId
+      ? scrapeOpenSubtitlesCaptions(imdbId, season, episode)
+      : Promise.resolve([]);
     // const febboxPromise = scrapeFebboxCaptions(imdbId, season, episode);
     const vdrkPromise = scrapeVdrkCaptions(tmdbId, season, episode);
 
     // Create timeout promises
+    const wyzieTimeoutPromise = new Promise<
+      import("@/stores/player/slices/source").CaptionListItem[]
+    >((resolve) => {
+      setTimeout(() => resolve([]), wyzieTimeout);
+    });
     const timeoutPromise = new Promise<
       import("@/stores/player/slices/source").CaptionListItem[]
     >((resolve) => {
@@ -61,7 +72,7 @@ export async function scrapeExternalSubtitles(
 
     // Start all sources concurrently and handle them as they complete
     const promises = [
-      Promise.race([wyziePromise, timeoutPromise]).then((captions) => {
+      Promise.race([wyziePromise, wyzieTimeoutPromise]).then((captions) => {
         handleSourceCompletion("Wyzie", captions);
         return captions;
       }),

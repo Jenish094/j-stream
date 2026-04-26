@@ -2,7 +2,12 @@ import { useEffect, useState } from "react";
 import { generatePath, useNavigate, useParams } from "react-router-dom";
 
 function decode(query: string | null | undefined) {
-  return query ? decodeURIComponent(query) : "";
+  if (!query) return "";
+  try {
+    return decodeURIComponent(query);
+  } catch {
+    return "";
+  }
 }
 
 export function useSearchQuery(): [

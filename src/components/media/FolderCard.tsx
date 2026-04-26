@@ -9,6 +9,7 @@ import { Flare } from "@/components/utils/Flare";
 export interface FolderCardProps {
   groupName: string; // The raw group syntax like "[BOOKMARK]My Folder"
   displayName: string; // The parsed display name like "My Folder"
+  folderIcon?: string;
   onClick?: () => void;
   onEdit?: (e?: React.MouseEvent) => void;
   editable?: boolean;
@@ -17,6 +18,7 @@ export interface FolderCardProps {
 export function FolderCard({
   groupName,
   displayName,
+  folderIcon,
   onClick,
   onEdit,
   editable,
@@ -53,7 +55,9 @@ export function FolderCard({
           <div className="relative pb-[150%] w-full overflow-hidden rounded-xl bg-mediaCard-hoverBackground mb-4">
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white/60 group-hover:text-white transition-colors">
               <UserIcon
-                icon={UserIcons.USER_GROUP}
+                icon={
+                  folderIcon ? (folderIcon as UserIcons) : UserIcons.USER_GROUP
+                }
                 className="text-5xl mb-3 opacity-60"
               />
               <span className="text-xs text-white/40 uppercase tracking-widest font-semibold">

@@ -235,6 +235,9 @@
   "errors": {
     "badge": "It broke 💀",
     "details": "Error details",
+    "adBlocker": "This is likely caused by your adblocker — we don't have any ads, so it's safe to whitelist us!",
+    "adBlockerLink": "How to whitelist a site",
+    "goHome": "Go to home",
     "reloadPage": "Reload the page",
     "showError": "Show error details",
     "title": "We encountered an error!"

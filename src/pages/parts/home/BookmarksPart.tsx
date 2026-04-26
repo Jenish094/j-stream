@@ -248,12 +248,13 @@ export function BookmarksPart({
         <MediaGrid ref={gridRef}>
           {/* Folder cards */}
           {allGroups.map((group) => {
-            const { name } = parseGroupString(group);
+            const { name, icon } = parseGroupString(group);
             return (
               <div key={`folder-${group}`}>
                 <FolderCard
                   groupName={group}
                   displayName={name}
+                  folderIcon={icon}
                   editable={editing}
                   onClick={() => {
                     if (!editing) {

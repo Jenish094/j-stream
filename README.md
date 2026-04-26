@@ -12,14 +12,14 @@
 
 ## Links And Resources
 
-| Service       | Link                                            | Source Code                                             |
-| ------------- | ----------------------------------------------- | ------------------------------------------------------- |
-| P-Stream Docs | [docs](https://jenish094.github.io/pstream-docs/)                | [source code](https://github.com/jenish094/pstream-docs)         |
-| Extension     | [extension](https://jenish094.github.io/pstream-docs/extension) | [source code](https://github.com/jenish094/browser-ext)  |
-| Proxy         | [simple-proxy](https://jenish094.github.io/pstream-docs/simple-proxy)  | [source code](https://github.com/jenish094/simple-proxy) |
-| Backend       | [backend](https://github.com/jenish094/backend)          | [source code](https://github.com/jenish094/backend)      |
-| Frontend      | [P-Stream](https://jenish094.github.io/pstream-docs/instances)  | [source code](https://github.com/jenish094/p-stream)     |
-| Weblate       | [weblate](https://jenish094.github.io/pstream-docs/weblate)          |                                                         |
+| Service       | Link                                                                  | Source Code                                              |
+| ------------- | --------------------------------------------------------------------- | -------------------------------------------------------- |
+| P-Stream Docs | [docs](https://jenish094.github.io/pstream-docs/)                     | [source code](https://github.com/jenish094/pstream-docs) |
+| Extension     | [extension](https://jenish094.github.io/pstream-docs/extension)       | [source code](https://github.com/jenish094/browser-ext)  |
+| Proxy         | [simple-proxy](https://jenish094.github.io/pstream-docs/simple-proxy) | [source code](https://github.com/jenish094/simple-proxy) |
+| Backend       | [backend](https://github.com/jenish094/backend)                       | [source code](https://github.com/jenish094/backend)      |
+| Frontend      | [P-Stream](https://jenish094.github.io/pstream-docs/instances)        | [source code](https://github.com/jenish094/p-stream)     |
+| Weblate       | [weblate](https://jenish094.github.io/pstream-docs/weblate)           |                                                          |
 
 ## Referrers
 

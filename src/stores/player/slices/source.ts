@@ -70,6 +70,10 @@ export interface CaptionListItem {
   isHearingImpaired?: boolean;
   source?: string;
   encoding?: string;
+  flagUrl?: string;
+  release?: string | null;
+  releases?: string[];
+  origin?: string | null;
 }
 
 export interface AudioTrack {

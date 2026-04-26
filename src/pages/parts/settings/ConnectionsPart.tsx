@@ -401,6 +401,9 @@ export function FebboxSetup({
               <p className="max-w-[30rem] font-medium">
                 <Trans i18nKey="fedapi.onboarding.description" />
               </p>
+              <p className="max-w-[30rem] mt-2 text-sm text-type-secondary italic">
+                {t("fedapi.onboarding.note")}
+              </p>
             </div>
             <div>
               <Toggle

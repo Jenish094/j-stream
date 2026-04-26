@@ -1,7 +1,9 @@
 /* eslint-disable no-console */
-import { type SubtitleData, searchSubtitles } from "wyzie-lib";
+import { type SubtitleData, configure, searchSubtitles } from "wyzie-lib";
 
 import { CaptionListItem } from "@/stores/player/slices/source";
+
+configure({ key: "wyzie-eeba2b82f8668e42da7534acaa088c99" });
 
 export async function scrapeWyzieCaptions(
   tmdbId: string | number,
@@ -13,12 +15,15 @@ export async function scrapeWyzieCaptions(
     const searchParams: any = {
       encoding: "utf-8",
       source: "all",
-      imdb_id: imdbId,
     };
 
-    if (tmdbId && !imdbId) {
+    if (imdbId) {
+      searchParams.imdb_id = imdbId;
+    } else if (tmdbId) {
       searchParams.tmdb_id =
         typeof tmdbId === "string" ? parseInt(tmdbId, 10) : tmdbId;
+    } else {
+      return [];
     }
 
     if (season && episode) {
@@ -39,12 +44,15 @@ export async function scrapeWyzieCaptions(
           : "srt",
       needsProxy: false,
       opensubtitles: true,
-      // Additional metadata from Wyzie
       display: subtitle.display,
       media: subtitle.media,
       isHearingImpaired: subtitle.isHearingImpaired,
       source: `wyzie ${subtitle.source?.toString() === "opensubtitles" ? "opensubs" : subtitle.source}`,
       encoding: subtitle.encoding,
+      flagUrl: subtitle.flagUrl,
+      release: subtitle.release,
+      releases: subtitle.releases,
+      origin: subtitle.origin,
     }));
 
     return wyzieCaptions;

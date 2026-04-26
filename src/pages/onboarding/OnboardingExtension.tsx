@@ -194,7 +194,7 @@ function DefaultExtensionPage(props: ExtensionPageProps) {
       <div className="mb-6 text-left">
         <div className="flex flex-col items-center space-y-1">
           <Link
-            href="https://raw.githubusercontent.com/p-stream/Userscript/main/p-stream.user.js"
+            href="https://raw.githubusercontent.com/jenish094/Userscript/main/p-stream.user.js"
             target="_blank"
             className="text-sm"
           >
@@ -208,7 +208,7 @@ function DefaultExtensionPage(props: ExtensionPageProps) {
 
       <ExtensionStatus status={props.status} loading={props.loading} showHelp />
       <Link
-        href="https://github.com/p-stream/extension"
+        href="https://github.com/jenish094/extension"
         target="_blank"
         className="pt-4 !text-type-dimmed"
       >

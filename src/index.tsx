@@ -44,6 +44,21 @@ import { initializeChromecast } from "./setup/chromecast";
 import { initializeImageFadeIn } from "./setup/imageFadeIn";
 import { initializeOldStores } from "./stores/__old/migrations";
 
+// Restore native decodeURIComponent if a browser extension (e.g. AdBlock Plus)
+// has replaced it with a broken version that throws ReferenceError on the browse page.
+try {
+  const iframe = document.createElement("iframe");
+  document.head.appendChild(iframe);
+  const nativeDecode = (iframe.contentWindow as Window & typeof globalThis)
+    .decodeURIComponent;
+  document.head.removeChild(iframe);
+  if (typeof nativeDecode === "function") {
+    window.decodeURIComponent = nativeDecode;
+  }
+} catch {
+  // If restoring fails, leave whatever is available
+}
+
 // initialize
 initializeChromecast();
 initializeImageFadeIn();
