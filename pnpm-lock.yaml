@@ -34,8 +34,8 @@ importers:
         specifier: ^1.7.19
         version: 1.7.19(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@jenish094/providers':
-        specifier: file:../providers
-        version: file:../providers
+        specifier: github:jenish094/providers#production
+        version: https://codeload.github.com/jenish094/providers/tar.gz/366e7ac1c77b9adcb2267a7e9e55c81a4f4d1a25
       '@ladjs/country-language':
         specifier: ^1.0.3
         version: 1.0.3
@@ -1116,8 +1116,9 @@ packages:
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
     deprecated: Use @eslint/object-schema instead
 
-  '@jenish094/providers@file:../providers':
-    resolution: {directory: ../providers, type: directory}
+  '@jenish094/providers@https://codeload.github.com/jenish094/providers/tar.gz/366e7ac1c77b9adcb2267a7e9e55c81a4f4d1a25':
+    resolution: {tarball: https://codeload.github.com/jenish094/providers/tar.gz/366e7ac1c77b9adcb2267a7e9e55c81a4f4d1a25}
+    version: 3.2.1
 
   '@jest/schemas@29.6.3':
     resolution: {integrity: sha512-mo5j5X+jIZmJQveBKeS/clAueipV7KgiX1vMgCxam1RNYiqE1w62n0/tJJnHtjW8ZHcQco5gY85jA3mi0L+nSA==}
@@ -5374,7 +5375,7 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
-  '@jenish094/providers@file:../providers':
+  '@jenish094/providers@https://codeload.github.com/jenish094/providers/tar.gz/366e7ac1c77b9adcb2267a7e9e55c81a4f4d1a25':
     dependencies:
       abort-controller: 3.0.0
       cheerio: 1.0.0-rc.12
