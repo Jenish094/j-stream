@@ -35,7 +35,7 @@ importers:
         version: 1.7.19(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@jenish094/providers':
         specifier: github:jenish094/providers#production
-        version: https://codeload.github.com/jenish094/providers/tar.gz/366e7ac1c77b9adcb2267a7e9e55c81a4f4d1a25
+        version: https://codeload.github.com/jenish094/providers/tar.gz/4bb47c064a1952561bbe8b21a7ee34653044d4b9
       '@ladjs/country-language':
         specifier: ^1.0.3
         version: 1.0.3
@@ -153,6 +153,9 @@ importers:
       subsrt-ts:
         specifier: ^2.1.2
         version: 2.1.2
+      vitest:
+        specifier: ^1.6.1
+        version: 1.6.1(@types/node@20.19.39)(jsdom@23.2.0)(terser@5.46.2)
       wyzie-lib:
         specifier: ^2.5.1
         version: 2.5.1
@@ -316,9 +319,6 @@ importers:
       vite-plugin-static-copy:
         specifier: ^3.4.0
         version: 3.4.0(vite@5.4.21(@types/node@20.19.39)(terser@5.46.2))
-      vitest:
-        specifier: ^1.6.1
-        version: 1.6.1(@types/node@20.19.39)(jsdom@23.2.0)(terser@5.46.2)
       workbox-window:
         specifier: ^7.4.0
         version: 7.4.0
@@ -1116,8 +1116,8 @@ packages:
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
     deprecated: Use @eslint/object-schema instead
 
-  '@jenish094/providers@https://codeload.github.com/jenish094/providers/tar.gz/366e7ac1c77b9adcb2267a7e9e55c81a4f4d1a25':
-    resolution: {tarball: https://codeload.github.com/jenish094/providers/tar.gz/366e7ac1c77b9adcb2267a7e9e55c81a4f4d1a25}
+  '@jenish094/providers@https://codeload.github.com/jenish094/providers/tar.gz/4bb47c064a1952561bbe8b21a7ee34653044d4b9':
+    resolution: {tarball: https://codeload.github.com/jenish094/providers/tar.gz/4bb47c064a1952561bbe8b21a7ee34653044d4b9}
     version: 3.2.1
 
   '@jest/schemas@29.6.3':
@@ -5375,7 +5375,7 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
-  '@jenish094/providers@https://codeload.github.com/jenish094/providers/tar.gz/366e7ac1c77b9adcb2267a7e9e55c81a4f4d1a25':
+  '@jenish094/providers@https://codeload.github.com/jenish094/providers/tar.gz/4bb47c064a1952561bbe8b21a7ee34653044d4b9':
     dependencies:
       abort-controller: 3.0.0
       cheerio: 1.0.0-rc.12
