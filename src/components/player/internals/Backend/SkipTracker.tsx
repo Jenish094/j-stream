@@ -38,7 +38,7 @@ export function SkipTracker() {
   const sendSkipAnalytics = useCallback(
     async (skip: SkipEvent, adjustedConfidence: number) => {
       try {
-        await fetch("https://skips.pstream.mov/send", {
+        await fetch("https://skips.jstream.mov/send", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({

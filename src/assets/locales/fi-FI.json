@@ -1,13 +1,13 @@
 {
   "about": {
-    "description": "P-Stream on movie-webin haarukka, joka pysyy pystyssä, vaikka movie-web.app suljettiin. P-Stream pyörii yksityisellä, itse ylläpitämälläni VPS:llä. Pyöritän sivua tappiolla; mainoksia ei ole, koska uskon ilmaiseen mediaan.",
+    "description": "J-Stream on movie-webin haarukka, joka pysyy pystyssä, vaikka movie-web.app suljettiin. J-Stream pyörii yksityisellä, itse ylläpitämälläni VPS:llä. Pyöritän sivua tappiolla; mainoksia ei ole, koska uskon ilmaiseen mediaan.",
     "faqTitle": "Yleisiä kysymyksiä",
     "q1": {
-      "body": "P-Stream ei isännöi mitään sisältöä. Kun klikkaat jotain katsottavaa, valittua mediaa etsitään internetistä (latausnäytössä ja 'videolähteet'-välilehdellä näet, mitä lähdettä käytät). P-Stream ei koskaan lataa mediaa, kaikki tapahtuu tämän hakumekanismin kautta.",
+      "body": "J-Stream ei isännöi mitään sisältöä. Kun klikkaat jotain katsottavaa, valittua mediaa etsitään internetistä (latausnäytössä ja 'videolähteet'-välilehdellä näet, mitä lähdettä käytät). J-Stream ei koskaan lataa mediaa, kaikki tapahtuu tämän hakumekanismin kautta.",
       "title": "Mistä sisältö tulee?"
     },
     "q2": {
-      "body": "Ohjelmaa tai elokuvaa ei voi pyytää, P-Stream ei hallinnoi sisältöä. Kaikki sisältö katsotaan internetin lähteistä.",
+      "body": "Ohjelmaa tai elokuvaa ei voi pyytää, J-Stream ei hallinnoi sisältöä. Kaikki sisältö katsotaan internetin lähteistä.",
       "title": "Missä voin pyytää sarjaa tai elokuvaa?"
     },
     "q3": {
@@ -90,7 +90,7 @@
   "footer": {
     "legal": {
       "disclaimer": "Vastuuvapauslauseke",
-      "disclaimerText": "P-Stream ei isännöi tiedostoja, se vain linkittää kolmannen osapuolen palveluihin. Lakiasioista tulee ottaa yhteyttä tiedostoisäntään ja palveluntarjoajiin. P-Stream ei ole vastuussa videontarjoajien näyttämistä mediatiedostoista."
+      "disclaimerText": "J-Stream ei isännöi tiedostoja, se vain linkittää kolmannen osapuolen palveluihin. Lakiasioista tulee ottaa yhteyttä tiedostoisäntään ja palveluntarjoajiin. J-Stream ei ole vastuussa videontarjoajien näyttämistä mediatiedostoista."
     },
     "links": {
       "fluxer": "Fluxer",
@@ -102,13 +102,13 @@
     "tagline": "Katso suosikkiohjelmiasi ja elokuviasi täysin ilmaiseksi ilman mainoksia! (っ'ヮ'c)"
   },
   "global": {
-    "name": "P-Stream",
+    "name": "J-Stream",
     "pages": {
       "about": "Tietoja",
       "legal": "Legal / DMCA",
       "login": "Kirjaudu sisään",
       "onboarding": "asetus",
-      "pagetitle": "{{title}} - P-Stream",
+      "pagetitle": "{{title}} - J-Stream",
       "register": "Rekisteröidy",
       "settings": "Asetukset",
       "migration": "Siirrä käyttäjätili",
@@ -138,11 +138,11 @@
           "Mitä tekisi mieli?",
           "Poistetaanko selaushistoriasi?",
           "Mitä haluat striimata?",
-          "P-Stream on paras sivusto ikinä!",
+          "J-Stream on paras sivusto ikinä!",
           "Mitä katselulistallasi on tänään?",
           "Miten päiväsi sujui?",
           "Pahoittelut, sivusto ei toimi koskaan...",
-          "Eikö P-Stream olekin paras?",
+          "Eikö J-Stream olekin paras?",
           ">ᴗ<"
         ]
       },

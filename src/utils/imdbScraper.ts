@@ -113,7 +113,7 @@ export async function scrapeIMDb(
   if (!hasExtension && !hasProxy) {
     // Custom API for trailers:
     const trailerResponse = await fetch(
-      `https://fed-trailers.pstream.mov/${type === "movie" ? "movie" : "tv"}/${imdbId}`,
+      `https://fed-trailers.jstream.mov/${type === "movie" ? "movie" : "tv"}/${imdbId}`,
     ).then((res) => res.json());
     if (trailerResponse.trailer?.embed_url) {
       return {

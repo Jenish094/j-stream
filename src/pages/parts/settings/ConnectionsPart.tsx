@@ -116,7 +116,7 @@ function ProxyEdit({
           </p>
           <p className="max-w-[30rem] font-medium">
             <Trans i18nKey="settings.connections.workers.description">
-              <MwLink to="https://p-stream.github.io/docs/proxy/deploy">
+              <MwLink to="https://j-stream.github.io/docs/proxy/deploy">
                 {t("settings.connections.workers.documentation")}
               </MwLink>
             </Trans>
@@ -237,7 +237,7 @@ function BackendEdit({ backendUrl, setBackendUrl }: BackendEditProps) {
           </p>
           <p className="max-w-[30rem] font-medium">
             <Trans i18nKey="settings.connections.server.description">
-              <MwLink to="https://p-stream.github.io/docs/backend/deploy">
+              <MwLink to="https://j-stream.github.io/docs/backend/deploy">
                 {t("settings.connections.server.documentation")}
               </MwLink>
             </Trans>
@@ -444,7 +444,7 @@ export function FebboxSetup({
                           src="https://player.vimeo.com/video/1059834885?h=c3ab398d42&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                           allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
                           className="absolute top-0 left-0 w-full h-full border border-type-secondary rounded-lg bg-black"
-                          title="P-Stream FED API Setup Tutorial"
+                          title="J-Stream FED API Setup Tutorial"
                         />
                       </div>
                       <br />

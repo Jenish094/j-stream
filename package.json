@@ -1,9 +1,9 @@
 {
   "packageManager": "pnpm@10.33.0",
-  "name": "p-stream",
+  "name": "j-stream",
   "version": "5.3.7",
   "private": true,
-  "homepage": "https://github.com/jenish094/p-stream",
+  "homepage": "https://github.com/jenish094/j-stream",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -75,6 +75,7 @@
     "semver": "^7.7.4",
     "slugify": "^1.6.9",
     "subsrt-ts": "^2.1.2",
+    "vitest": "^1.6.1",
     "wyzie-lib": "^2.5.1",
     "zustand": "^4.5.7"
   },
@@ -131,7 +132,6 @@
     "vite-plugin-package-version": "^1.1.0",
     "vite-plugin-pwa": "^0.17.5",
     "vite-plugin-static-copy": "^3.4.0",
-    "vitest": "^1.6.1",
     "workbox-window": "^7.4.0"
   },
   "pnpm": {

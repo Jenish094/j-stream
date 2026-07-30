@@ -15,7 +15,7 @@ import {
 setupM3U8Proxy();
 
 function isDesktopApp(): boolean {
-  return Boolean(typeof window !== "undefined" && window.__PSTREAM_DESKTOP__);
+  return Boolean(typeof window !== "undefined" && window.__JSTREAM_DESKTOP__);
 }
 
 export function getProviders() {

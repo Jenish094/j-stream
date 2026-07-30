@@ -302,7 +302,7 @@ export function LinksDropdown(props: { children: React.ReactNode }) {
               <DropdownLink
                 onClick={() =>
                   window.dispatchEvent(
-                    new CustomEvent("pstream-desktop-settings"),
+                    new CustomEvent("jstream-desktop-settings"),
                   )
                 }
                 icon={Icons.GEAR}
@@ -335,7 +335,7 @@ export function LinksDropdown(props: { children: React.ReactNode }) {
             }}
             icon={Icons.RISING_STAR}
           >
-            P-Stream Revival
+            J-Stream Revival
           </DropdownLink>
           {!enableLowPerformanceMode && (
             <DropdownLink href="/discover" icon={Icons.RISING_STAR}>

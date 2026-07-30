@@ -35,7 +35,7 @@ export function AdminPage() {
     <SubPageLayout>
       <ThinContainer>
         <Heading1>Admin tools</Heading1>
-        <Paragraph>Silly tools used test P-Stream! ૮₍´˶• . • ⑅ ₎ა</Paragraph>
+        <Paragraph>Silly tools used to test J-Stream! ૮₍´˶• . • ⑅ ₎ა</Paragraph>
 
         <ConfigValuesPart />
         <BackendTestPart />

@@ -221,7 +221,7 @@ export async function createPasskey(
     {
       challenge,
       rp: {
-        name: "P-Stream",
+        name: "J-Stream",
         id: window.location.hostname,
       },
       user: {
