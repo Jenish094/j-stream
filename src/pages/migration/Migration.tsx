@@ -32,9 +32,9 @@ export function MigrationPage() {
             className="text-type-dimmed text-lg mt-0.5 shrink-0"
           />
           <p className="text-sm text-type-dimmed">
-            Need to export your data from the original P-Stream first?{" "}
+            Need to export your data from the original J-Stream first?{" "}
             <a
-              href="https://pstream-export-visualizer.vercel.app/"
+              href="https://jstream-export-visualizer.vercel.app/"
               target="_blank"
               rel="noreferrer"
               className="text-type-link underline hover:opacity-80 transition-opacity"

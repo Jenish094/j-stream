@@ -11,9 +11,9 @@ export async function scrapeFebboxCaptions(
   try {
     let url: string;
     if (season && episode) {
-      url = `https://fed-subs.pstream.mov/tv/${imdbId}/${season}/${episode}`;
+      url = `https://fed-subs.jstream.mov/tv/${imdbId}/${season}/${episode}`;
     } else {
-      url = `https://fed-subs.pstream.mov/movie/${imdbId}`;
+      url = `https://fed-subs.jstream.mov/movie/${imdbId}`;
     }
 
     // console.log("Searching Febbox subtitles with URL:", url);

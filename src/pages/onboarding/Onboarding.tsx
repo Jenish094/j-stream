@@ -185,7 +185,7 @@ export function OnboardingPage() {
           <Card
             onClick={() =>
               window.open(
-                "https://github.com/jenish094/p-stream-desktop/releases",
+                "https://github.com/jenish094/j-stream-desktop/releases",
                 "_blank",
               )
             }
@@ -259,7 +259,7 @@ export function OnboardingPage() {
           {/* <Card
             onClick={() =>
               window.open(
-                "https://github.com/jenish094/p-stream-desktop/releases",
+                "https://github.com/jenish094/j-stream-desktop/releases",
                 "_blank",
               )
             }

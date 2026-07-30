@@ -118,12 +118,12 @@ export const defaultTheme = {
 
       // light bar
       lightBar: {
-        light: tokens.purple.c800,
+        light: tokens.blue.c400,
       },
 
       // Buttons
       buttons: {
-        toggle: tokens.purple.c300,
+        toggle: tokens.blue.c300,
         toggleDisabled: tokens.black.c200,
         danger: tokens.semantic.rose.c300,
         dangerHover: tokens.semantic.rose.c200,
@@ -134,8 +134,8 @@ export const defaultTheme = {
         primary: tokens.white,
         primaryText: tokens.black.c50,
         primaryHover: tokens.semantic.silver.c100,
-        purple: tokens.purple.c600,
-        purpleHover: tokens.purple.c400,
+        purple: tokens.blue.c600,
+        purpleHover: tokens.blue.c400,
         cancel: tokens.black.c100,
         cancelHover: tokens.black.c150,
       },
@@ -145,7 +145,7 @@ export const defaultTheme = {
         main: tokens.black.c75,
         secondary: tokens.black.c75,
         secondaryHover: tokens.black.c75,
-        accentA: tokens.purple.c600,
+        accentA: tokens.blue.c600,
         accentB: tokens.black.c100,
       },
 
@@ -156,7 +156,7 @@ export const defaultTheme = {
 
       // typography
       type: {
-        logo: tokens.purple.c100,
+        logo: tokens.blue.c100,
         emphasis: tokens.white,
         text: tokens.shade.c50,
         dimmed: tokens.shade.c50,
@@ -164,8 +164,8 @@ export const defaultTheme = {
         secondary: tokens.ash.c100,
         danger: tokens.semantic.red.c100,
         success: tokens.semantic.green.c100,
-        link: tokens.purple.c100,
-        linkHover: tokens.purple.c50,
+        link: tokens.blue.c100,
+        linkHover: tokens.blue.c50,
       },
 
       // search bar
@@ -185,7 +185,7 @@ export const defaultTheme = {
         hoverShadow: tokens.black.c50,
         shadow: tokens.shade.c800,
         barColor: tokens.ash.c200,
-        barFillColor: tokens.purple.c100,
+        barFillColor: tokens.blue.c100,
         badge: tokens.shade.c700,
         badgeText: tokens.ash.c100,
       },
@@ -193,7 +193,7 @@ export const defaultTheme = {
       // Large card
       largeCard: {
         background: tokens.black.c100,
-        icon: tokens.purple.c400,
+        icon: tokens.blue.c400,
       },
 
       // Dropdown
@@ -230,8 +230,8 @@ export const defaultTheme = {
             secondary: tokens.shade.c200,
             inactive: tokens.shade.c50,
             icon: tokens.black.c200,
-            iconActivated: tokens.purple.c200,
-            activated: tokens.purple.c100,
+            iconActivated: tokens.blue.c200,
+            activated: tokens.blue.c100,
           },
         },
 
@@ -254,14 +254,14 @@ export const defaultTheme = {
       // Onboarding
       onboarding: {
         bar: tokens.shade.c400,
-        barFilled: tokens.purple.c300,
+        barFilled: tokens.blue.c300,
         divider: tokens.shade.c200,
         card: tokens.shade.c800,
         cardHover: tokens.shade.c700,
         border: tokens.shade.c600,
-        good: tokens.purple.c100,
+        good: tokens.blue.c100,
         best: tokens.semantic.yellow.c100,
-        link: tokens.purple.c100,
+        link: tokens.blue.c100,
       },
 
       // Error page
@@ -290,7 +290,7 @@ export const defaultTheme = {
       progress: {
         background: tokens.ash.c50,
         preloaded: tokens.ash.c50,
-        filled: tokens.purple.c200,
+        filled: tokens.blue.c200,
       },
 
       // video player
@@ -306,12 +306,12 @@ export const defaultTheme = {
           card: tokens.black.c50,
           error: tokens.semantic.red.c200,
           success: tokens.semantic.green.c200,
-          loading: tokens.purple.c200,
+          loading: tokens.blue.c200,
           noresult: tokens.black.c200,
         },
 
         audio: {
-          set: tokens.purple.c200,
+          set: tokens.blue.c200,
         },
 
         context: {
@@ -326,7 +326,7 @@ export const defaultTheme = {
           inputPlaceholder: tokens.ash.c200,
           cardBorder: tokens.ash.c700,
           slider: tokens.black.c200,
-          sliderFilled: tokens.purple.c200,
+          sliderFilled: tokens.blue.c200,
           error: tokens.semantic.red.c200,
 
           buttons: {
@@ -339,7 +339,7 @@ export const defaultTheme = {
           type: {
             main: tokens.semantic.silver.c300,
             secondary: tokens.ash.c200,
-            accent: tokens.purple.c200,
+            accent: tokens.blue.c200,
           },
         },
       },

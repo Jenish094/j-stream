@@ -65,8 +65,8 @@ export default defineConfig(({ mode }) => {
           "safari-pinned-tab.svg",
         ],
         manifest: {
-          name: "P-Stream",
-          short_name: "P-Stream",
+          name: "J-Stream",
+          short_name: "J-Stream",
           description:
             "Watch your favorite shows and movies for free with no ads ever! (っ'ヮ'c)",
           theme_color: "#000000",
@@ -178,7 +178,7 @@ export default defineConfig(({ mode }) => {
     preview: {
       host: true,
       port: 80,
-      allowedHosts: ["pstream.net", "pstream-test.vercel.app"],
+      allowedHosts: ["jstream.jenish.tech"],
     },
   };
 });
