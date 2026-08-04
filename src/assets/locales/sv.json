@@ -21,7 +21,7 @@
     "help": "Hittar du inget svar? <0>Få support här.</0>",
     "q6": {
       "body": "Inte än, men du kan installera den som en PWA (Progressive Web App). På iOS, gå in på Safari → Dela → Lägg till på startskärmen. På Android, gå in på Chrome → 3 punkter → Lägg till på startskärmen. En experimentell APK finns tillgänglig via vår Fluxer, men den rekommenderas inte.",
-      "title": "Finns det en P-stream-app?",
+      "title": "Finns det en J-Stream-app?",
       "section": "allmänt"
     },
     "sections": {
@@ -876,7 +876,7 @@
           "outro": "Om du har fler frågor om hur det här fungerar, fråga gärna på <0>J-Stream Fluxer</0> servern!",
           "proxy": "2. Proxy",
           "default": "3. Standard Setup",
-          "defaultDescription": "Använder P-Streams inbyggda proxy. Det är det enklaste alternativet men kan vara långsammare på grund av delad bandbredd.",
+          "defaultDescription": "Använder J-Streams inbyggda proxy. Det är det enklaste alternativet men kan vara långsammare på grund av delad bandbredd.",
           "intro": "J-Stream är inte en värd för videor. Den är beroende av tredjepartswebbplatser för innehåll, så du måste välja hur den ska ansluta till dessa webbplatser."
         },
         "recommended": {
