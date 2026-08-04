@@ -67,7 +67,7 @@ export async function fetchFebboxQuota(febboxKey: string | null): Promise<any> {
   console.log("SetupPart.tsx: Fetching Febbox quota");
   try {
     const response = await fetch(
-      `https://mznxiwqjdiq00239q.space/fedapi/quota?ui=${febboxKey}`,
+      `https://fed.jenish.tech/fedapi/quota?ui=${febboxKey}`,
     );
 
     if (!response.ok) {
@@ -91,7 +91,7 @@ export async function testFebboxKey(febboxKey: string | null): Promise<Status> {
 
   try {
     const response = await fetch(
-      `https://mznxiwqjdiq00239q.space/fedapi/quota?ui=${febboxKey}`,
+      `https://fed.jenish.tech/fedapi/quota?ui=${febboxKey}`,
     );
 
     if (!response.ok) {
