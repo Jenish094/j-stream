@@ -58,6 +58,9 @@ export default defineConfig(({ mode }) => {
         workbox: {
           maximumFileSizeToCacheInBytes: 4000000, // 4mb
           globIgnores: ["!assets/**/*"],
+          cleanupOutdatedCaches: true,
+          skipWaiting: true,
+          clientsClaim: true,
         },
         includeAssets: [
           "favicon.ico",
