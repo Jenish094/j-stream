@@ -146,7 +146,7 @@ export default defineConfig(({ mode }) => {
               return "react-dom";
             }
             if (id.includes("Icon.tsx")) {
-              return "Icons";
+              return "icons";
             }
             const isCaptioningPackage = captioningPackages.some((packageName) =>
               id.includes(packageName),
