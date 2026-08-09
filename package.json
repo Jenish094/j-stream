@@ -35,7 +35,7 @@
     "@dnd-kit/utilities": "^3.2.2",
     "@formkit/auto-animate": "^0.8.4",
     "@headlessui/react": "^1.7.19",
-    "@jenish094/providers": "^3.2.7",
+    "@jenish094/providers": "^3.2.8",
     "@ladjs/country-language": "^1.0.3",
     "@marsidev/react-turnstile": "^0.7.2",
     "@noble/hashes": "^1.8.0",

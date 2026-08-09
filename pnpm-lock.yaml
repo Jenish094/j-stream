@@ -34,8 +34,8 @@ importers:
         specifier: ^1.7.19
         version: 1.7.19(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@jenish094/providers':
-        specifier: ^3.2.7
-        version: 3.2.7
+        specifier: ^3.2.8
+        version: 3.2.8
       '@ladjs/country-language':
         specifier: ^1.0.3
         version: 1.0.3
@@ -1595,8 +1595,8 @@ packages:
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
     deprecated: Use @eslint/object-schema instead
 
-  '@jenish094/providers@3.2.7':
-    resolution: {integrity: sha512-DAs+tk8XHpA2n7LLSmIfUggJwo4Zuyqc7+jkGEJsg+teYZi0wXN1oShivSYlOhrgtKAoQs3IM9CVm3DlMF0eMQ==}
+  '@jenish094/providers@3.2.8':
+    resolution: {integrity: sha512-zVm2I2QBP1qauY7hHilqgpF6yJuWhO6vNN1ldf06Lmo3IGv3vnYHa/s1Djo/0QamF3S7uRKIdkSvvEW2Mr9teQ==}
 
   '@jest/schemas@29.6.3':
     resolution: {integrity: sha512-mo5j5X+jIZmJQveBKeS/clAueipV7KgiX1vMgCxam1RNYiqE1w62n0/tJJnHtjW8ZHcQco5gY85jA3mi0L+nSA==}
@@ -6568,7 +6568,7 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
-  '@jenish094/providers@3.2.7':
+  '@jenish094/providers@3.2.8':
     dependencies:
       abort-controller: 3.0.0
       cheerio: 1.0.0-rc.12
