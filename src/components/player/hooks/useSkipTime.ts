@@ -10,7 +10,7 @@ import { usePreferencesStore } from "@/stores/preferences";
 import { getTurnstileToken } from "@/utils/turnstile";
 
 // Thanks Nemo for this API
-const THE_INTRO_DB_BASE_URL = "https://api.theintrodb.org/v2";
+const THE_INTRO_DB_BASE_URL = "https://api.theintrodb.org/v3";
 const FED_SKIPS_BASE_URL = "";
 const INTRODB_BASE_URL = "https://api.introdb.app/intro";
 const MAX_RETRIES = 3;
