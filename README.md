@@ -8,18 +8,17 @@
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/jenish094/j-stream)
 
-**NOTE: To self-host, more setup is required. Check the [docs](https://jenish094.github.io/jstream-docs/) to properly set up!!!!**
+**NOTE: To self-host, more setup is required. Check the [docs](https://docs.jstream.jenish.tech/) to properly set up!!!!**
 
 ## Links And Resources
 
 | Service       | Link                                                                  | Source Code                                              |
 | ------------- | --------------------------------------------------------------------- | -------------------------------------------------------- |
-| J-Stream Docs | [docs](https://jenish094.github.io/jstream-docs/)                     | [source code](https://github.com/jenish094/jstream-docs) |
-| Extension     | [extension](https://jenish094.github.io/jstream-docs/extension)       | [source code](https://github.com/jenish094/browser-ext)  |
-| Proxy         | [simple-proxy](https://jenish094.github.io/jstream-docs/simple-proxy) | [source code](https://github.com/jenish094/simple-proxy) |
+| J-Stream Docs | [docs](https://docs.jstream.jenish.tech)                              | [source code](https://github.com/jenish094/jstream-docs) |
+| Extension     | [extension](https://docs.jstream.jenish.tech/extension)               | [source code](https://github.com/jenish094/browser-ext)  |
+| Proxy         | [simple-proxy](https://docs.jstream.jenish.tech/simple-proxy)         | [source code](https://github.com/jenish094/simple-proxy) |
 | Backend       | [backend](https://github.com/jenish094/backend)                       | [source code](https://github.com/jenish094/backend)      |
-| Frontend      | [J-Stream](https://jenish094.github.io/jstream-docs/instances)        | [source code](https://github.com/jenish094/j-stream)     |
-| Weblate       | [weblate](https://jenish094.github.io/jstream-docs/weblate)           |                                                          |
+| Frontend      | [J-Stream](https://jstream.jenish.tech)                               | [source code](https://github.com/jenish094/j-stream)     |
 
 ## Referrers
 
@@ -54,6 +53,3 @@ git commit -m "Update j-stream instance (merge upstream/production)"
 git push  # Push to YOUR repository
 ```
 
-## Contact Me / Discord
-
-[Discord](https://discord.gg/rVa8jzGR)
