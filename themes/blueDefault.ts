@@ -1,5 +1,3 @@
-import { createTheme } from "../types";
-
 const tokens = {
   purple: {
     c50: "#aac5ff",
@@ -52,8 +50,7 @@ const tokens = {
   },
 };
 
-export default createTheme({
-  name: "blue",
+export const blueDefaultTheme = {
   extend: {
     colors: {
       themePreview: {
@@ -65,7 +62,6 @@ export default createTheme({
         background: tokens.shade.c300,
         backgroundHover: tokens.shade.c200,
         highlight: tokens.blue.c200,
-
         activeBackground: tokens.shade.c300,
       },
 
@@ -81,7 +77,6 @@ export default createTheme({
       buttons: {
         toggle: tokens.purple.c300,
         toggleDisabled: tokens.ash.c500,
-
         secondary: tokens.ash.c700,
         secondaryHover: tokens.ash.c700,
         purple: tokens.purple.c500,
@@ -159,7 +154,6 @@ export default createTheme({
         sidebar: {
           activeLink: tokens.shade.c600,
           badge: tokens.shade.c900,
-
           type: {
             secondary: tokens.shade.c200,
             inactive: tokens.shade.c50,
@@ -168,13 +162,11 @@ export default createTheme({
             activated: tokens.purple.c50,
           },
         },
-
         card: {
           border: tokens.shade.c400,
           background: tokens.shade.c400,
           altBackground: tokens.shade.c400,
         },
-
         saveBar: {
           background: tokens.shade.c800,
         },
@@ -187,7 +179,6 @@ export default createTheme({
       errors: {
         card: tokens.shade.c800,
         border: tokens.ash.c500,
-
         type: {
           secondary: tokens.ash.c100,
         },
@@ -212,22 +203,18 @@ export default createTheme({
 
       video: {
         buttonBackground: tokens.ash.c200,
-
         autoPlay: {
           background: tokens.ash.c700,
           hover: tokens.ash.c500,
         },
-
         scraping: {
           card: tokens.shade.c700,
           loading: tokens.purple.c200,
           noresult: tokens.ash.c100,
         },
-
         audio: {
           set: tokens.purple.c200,
         },
-
         context: {
           background: tokens.ash.c900,
           light: tokens.shade.c50,
@@ -241,14 +228,11 @@ export default createTheme({
           cardBorder: tokens.ash.c700,
           slider: tokens.ash.c50,
           sliderFilled: tokens.purple.c200,
-
           buttons: {
             list: tokens.ash.c700,
             active: tokens.ash.c900,
           },
-
           closeHover: tokens.ash.c800,
-
           type: {
             secondary: tokens.ash.c200,
             accent: tokens.purple.c200,
@@ -257,4 +241,4 @@ export default createTheme({
       },
     },
   },
-});
+};

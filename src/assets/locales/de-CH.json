@@ -238,7 +238,7 @@
       },
       "morning": {
         "default": "Was welsch a däm morge aluege?",
-        "extra": ["Viva la J-Stream!"]
+        "extra": ["J-Stream"]
       },
       "night": {
         "default": "Besch no wach? Was möchtisch luege?",

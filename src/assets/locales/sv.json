@@ -302,7 +302,7 @@
     "titles": {
       "day": {
         "default": "Vad vill du titta på i eftermiddag?",
-        "extra": ["Viva la J-Stream!"]
+        "extra": ["J-Stream"]
       },
       "morning": {
         "default": "Vad vill du titta på den här morgonen?",

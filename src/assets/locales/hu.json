@@ -163,16 +163,16 @@
     },
     "titles": {
       "day": {
-        "extra": ["Viva la J-Stream!"],
+        "extra": ["J-Stream"],
         "default": "Mit szeretnél nézni e délután?"
       },
       "morning": {
         "default": "Mit szeretnél nézni e reggelen?",
-        "extra": ["Viva la J-Stream!"]
+        "extra": ["J-Stream"]
       },
       "night": {
         "default": "Mit szeretnél nézni ezen az estén?",
-        "extra": ["Viva la J-Stream!"]
+        "extra": ["J-Stream"]
       },
       "420": {
         "extra": ["Boldog 4/20-át!"],

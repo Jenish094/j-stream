@@ -1,3 +1,6 @@
+import { blueDefaultTheme } from "./blueDefault";
+import type { DeepPartial } from "./types";
+
 const tokens = {
   black: {
     c50: "#000000",
@@ -43,28 +46,28 @@ const tokens = {
     },
   },
   blue: {
-    c50: "#ccccd6",
-    c100: "#a2a2a2",
-    c200: "#868686",
-    c300: "#646464",
-    c400: "#4e4e4e",
-    c500: "#383838",
-    c600: "#2e2e2e",
-    c700: "#272727",
-    c800: "#181818",
-    c900: "#0f0f0f",
+    c50: "#e1f7ff",
+    c100: "#9ed9ed",
+    c200: "#2596be",
+    c300: "#1e789a",
+    c400: "#185e7b",
+    c500: "#124b63",
+    c600: "#0e3d53",
+    c700: "#0b3044",
+    c800: "#092536",
+    c900: "#071a28",
   },
   purple: {
-    c50: "#aaafff",
-    c100: "#8288fe",
-    c200: "#5a62eb",
-    c300: "#454cd4",
-    c400: "#333abe",
-    c500: "#292d86",
-    c600: "#1f2363",
-    c700: "#191b4a",
-    c800: "#111334", // Lightbar
-    c900: "#0b0d22",
+    c50: "#f0e7ff",
+    c100: "#d0b8ff",
+    c200: "#b18aff",
+    c300: "#9365eb",
+    c400: "#7547c9",
+    c500: "#5b349f",
+    c600: "#44277c",
+    c700: "#321d5c",
+    c800: "#241741", // Lightbar
+    c900: "#160e2b",
   },
   ash: {
     c50: "#8d8d8d",
@@ -93,7 +96,7 @@ const tokens = {
   },
 };
 
-export const defaultTheme = {
+export const darkTheme = {
   extend: {
     colors: {
       themePreview: {
@@ -145,8 +148,8 @@ export const defaultTheme = {
         main: tokens.black.c75,
         secondary: tokens.black.c75,
         secondaryHover: tokens.black.c75,
-        accentA: tokens.blue.c600,
-        accentB: tokens.black.c100,
+        accentA: tokens.blue.c700,
+        accentB: tokens.blue.c900,
       },
 
       // Modals
@@ -158,8 +161,8 @@ export const defaultTheme = {
       type: {
         logo: tokens.blue.c100,
         emphasis: tokens.white,
-        text: tokens.shade.c50,
-        dimmed: tokens.shade.c50,
+        text: tokens.blue.c50,
+        dimmed: tokens.blue.c100,
         divider: tokens.ash.c500,
         secondary: tokens.ash.c100,
         danger: tokens.semantic.red.c100,
@@ -290,7 +293,7 @@ export const defaultTheme = {
       progress: {
         background: tokens.ash.c50,
         preloaded: tokens.ash.c50,
-        filled: tokens.blue.c200,
+        filled: tokens.purple.c200,
       },
 
       // video player
@@ -346,3 +349,7 @@ export const defaultTheme = {
     },
   },
 };
+
+export const defaultTheme: {
+  extend: DeepPartial<typeof darkTheme.extend>;
+} = blueDefaultTheme;

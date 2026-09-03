@@ -159,15 +159,15 @@
     "titles": {
       "day": {
         "default": "Какво бихте искали да гледате този следобед?",
-        "extra": ["Viva la J-Stream!"]
+        "extra": ["J-Stream"]
       },
       "morning": {
         "default": "Какво бихте искали да гледате тази сутрин?",
-        "extra": ["Viva la J-Stream!"]
+        "extra": ["J-Stream"]
       },
       "night": {
         "default": "Какво бихте искали да гледате тази вечер?",
-        "extra": ["Viva la J-Stream!"]
+        "extra": ["J-Stream"]
       },
       "69": {
         "default": "За нещо пикантно?",

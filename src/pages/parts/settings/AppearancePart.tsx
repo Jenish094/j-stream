@@ -28,9 +28,9 @@ const availableThemes = [
     key: "settings.appearance.themes.classic",
   },
   {
-    id: "blue",
-    selector: "theme-blue",
-    key: "settings.appearance.themes.blue",
+    id: "dark",
+    selector: "theme-dark-theme",
+    key: "settings.appearance.themes.dark",
   },
   {
     id: "teal",

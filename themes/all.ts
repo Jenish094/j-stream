@@ -1,5 +1,5 @@
 import teal from "./list/teal";
-import blue from "./list/blue";
+import dark from "./list/dark";
 import red from "./list/red";
 import gray from "./list/gray";
 import classic from "./list/classic";
@@ -23,7 +23,7 @@ import christmas from "./list/christmas";
 
 export const allThemes = [
   teal,
-  blue,
+  dark,
   gray,
   red,
   classic,

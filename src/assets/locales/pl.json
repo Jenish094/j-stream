@@ -270,15 +270,15 @@
     "titles": {
       "day": {
         "default": "Co chciałbyś obejrzeć dziś po południu?",
-        "extra": ["Viva la J-Stream!"]
+        "extra": ["J-Stream"]
       },
       "morning": {
         "default": "Co chciałbyś obejrzeć dziś rano?",
-        "extra": ["Viva la J-Stream!"]
+        "extra": ["J-Stream"]
       },
       "night": {
         "default": "Co chciałbyś obejrzeć dziś wieczorem?",
-        "extra": ["Viva la J-Stream!"]
+        "extra": ["J-Stream"]
       },
       "69": {
         "default": "Masz ochotę na coś pikantnego?",

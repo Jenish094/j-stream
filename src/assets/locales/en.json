@@ -442,23 +442,23 @@
     "titles": {
       "day": {
         "default": "What would you like to watch this afternoon?",
-        "extra": ["Viva la J-Stream!"]
+        "extra": ["J-Stream"]
       },
       "morning": {
         "default": "What would you like to watch this morning?",
-        "extra": ["Viva la J-Stream!"]
+        "extra": ["J-Stream"]
       },
       "night": {
         "default": "What would you like to watch tonight?",
-        "extra": ["Viva la J-Stream!"]
+        "extra": ["J-Stream"]
       },
       "420": {
-        "default": "What would you like to watch this 4/20?",
-        "extra": ["Happy 4/20 🥳!"]
+        "default": "What would you like to watch?",
+        "extra": ["J-Stream"]
       },
       "69": {
-        "default": "Up for something spicy?",
-        "extra": ["Happy 69 day 😘!"]
+        "default": "What would you like to watch?",
+        "extra": ["J-Stream"]
       },
       "halloween": {
         "default": "What spooky movie would you like to watch this Halloween?",
@@ -469,18 +469,6 @@
           "It's the Great Pumpkin, Charlie Brown!"
         ]
       }
-    },
-    "support": {
-      "title": "J-Stream needs your help!",
-      "description": "J-Stream is run at a loss, and we need help to keep it ad free! If you enjoy using J-Stream, please consider donating to help us cover our costs.",
-      "moreInfo": "More info",
-      "explanation": "If you aren't using the extension or don't have FED API set up, it may be harder to find content! We want to fix this, but it's a lot harder to provide content without expensive servers. So please, if you enjoy using J-Stream, please consider donating to help us cover our growing costs.",
-      "explanation2": "If you want more info, please join our ",
-      "fluxer": "Fluxer",
-      "thankYou": "Thank you for your support!",
-      "donate": "Donate",
-      "label": "Project Funding: ${{current}} / ${{goal}}",
-      "complete": "complete"
     }
   },
   "media": {
@@ -1220,6 +1208,7 @@
       "activeTheme": "Active",
       "themes": {
         "blue": "Blue",
+        "dark": "Dark",
         "custom": "Custom",
         "default": "Default",
         "gray": "Gray",
